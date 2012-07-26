@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/com/yuanlong/moiverss/channel/constant/DyZyConstant.java=UTF-8
+encoding//src/com/yuanlong/moiverss/utils/MD5Util.java=UTF-8
+encoding//src/com/yuanlong/moiverss/utils/RegexUtil.java=UTF-8
+encoding//src/com/yuanlong/moiverss/utils/VelocityUtils.java=UTF-8
+encoding//src/com/yuanlong/moiverss/vo/MoiveDetail.java=UTF-8
+encoding//src/resource/vm/moiverss.vm=gbk
+encoding//src/resource/vm/qqrss.vm=gbk
+encoding//src/resource/vm/qsedtxt.vm=gbk
+encoding//war/css/index.css=UTF-8
+encoding//war/css/main.css=UTF-8
+encoding/<project>=UTF-8

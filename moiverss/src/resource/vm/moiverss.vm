@@ -1,0 +1,29 @@
+<div style="font-family: Arial, Helvetica, sans-serif;font-size:13px;color:#666666;background:#fff;clear:both;margin:0 auto;width:912px;padding:0;">
+ <fieldset style="width: 430px;float:left;height:256px;padding:10px;margin-top:5px;border:1px solid #A4CDF2;background:#fff;">
+    <legend style=" background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #A4CDF2;color: #1E7ACE;font-weight: bold;padding: 3px 20px;">影片介绍</legend>
+	<div style="overflow: hidden;padding: 10px;">
+		<div style=" float: left;margin-right: 10px;">
+			<img style="border: 1px solid #BDD7E4; height: 200px;padding: 4px;width: 141px;" src="$!{v_pic}">
+		</div>
+		<div class="movieDetail" style="float: left;padding-top: 3px;width: 230px;">
+			<p style="color:#1E7ACE;margin:4px;"><strong>影片名称: </strong>$!{v_name}</p>
+			<p style="color:#1E7ACE;margin:4px;"><strong>影片栏目: </strong>$!{v_class}</p>
+			<p style="color:#1E7ACE;margin:4px;"><strong>影片地区: </strong>$!{v_area}</p>
+			<p style="color:#1E7ACE;margin:4px;"><strong>影片主演: </strong>$!{v_author}</p>
+			<p style="color:#1E7ACE;margin:4px;"><strong>影片导演: </strong>$!{v_direct}</p>
+			<p style="color:#1E7ACE;margin:4px;"><strong>发行日期: </strong>$!{v_year}</p>
+			<p style="color:#1E7ACE;margin:4px;"><strong>更新时间: </strong>$!{v_ctime}</p>
+		</div>
+	</div>
+ </fieldset>
+ <fieldset style="float: right;width: 430px;height:256px;padding:10px;margin-top:5px;border:1px solid #A4CDF2;background:#fff;">
+    <legend style=" background: none repeat scroll 0 0 #FFFFFF;    border: 1px solid #A4CDF2;    color: #1E7ACE;    font-weight: bold;    padding: 3px 20px;">播放地址</legend>
+	<div >
+		<ul style=";margin:0;padding:0">
+		#foreach($vdata in $v_datalist)
+		<li style="list-style: none outside none">$!{vdata}|</li>
+		#end
+		</ul>
+	</div>
+  </fieldset>
+</div>

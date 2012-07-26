@@ -1,0 +1,226 @@
+html,body {
+	background-color: #E4E4E4;
+	color: #797979;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body {
+	line-height: 1;
+}
+
+div#orta {
+	display: block;
+	height: 246px;
+	left: 50%;
+	margin: -203px 0 0 -246px;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 492px;
+	z-index: 100;
+}
+
+div#orta-motto {
+	line-height: 20px;
+	padding: 20px 10px 0;
+}
+
+div#orta-butonlar {
+	background-image: url("../images/bg-select.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 140px;
+	margin: 20px;
+	padding: 0;
+	text-align: center;
+}
+
+div#orta-butonlar img {
+	padding-left: 15px;
+	padding-top: 95px;
+}
+
+div#orta-mesaj {
+	padding-top: 15px;
+}
+
+div#alt-sol {
+	background-image: url("../images/bg-alt.gif");
+	background-position: left top;
+	background-repeat: repeat-x;
+	bottom: 0;
+	display: block;
+	height: 30px;
+	left: 147px;
+	margin: 0;
+	padding: 20px;
+	position: absolute;
+	width: 50%;
+	z-index: 1100;
+}
+
+div#alt-sag {
+	background-image: url("../images/bg-alt.gif");
+	background-position: left top;
+	background-repeat: repeat-x;
+	bottom: 0;
+	display: block;
+	height: 30px;
+	margin: 0;
+	padding: 20px;
+	position: absolute;
+	right: 136px;
+	text-align: right;
+	width: 50%;
+	z-index: 1200;
+}
+
+.rssbook {
+	padding: 10px 15px;
+	overflow: hidden;
+	zoom: 1;
+	background: #f6f6f6;
+	border: 3px solid #ddd;
+}
+
+.light {
+	background: #f6f6f6;
+	border: 3px solid #ddd;
+}
+
+.dark {
+	background: #aaa;
+	border: 3px solid #666;
+}
+
+.mailInput {
+	margin-top: 5px;
+}
+
+.rssbook .info {
+	color: #666;
+	font-size: 12px;
+}
+
+.light .info {
+	color: #666;
+}
+
+.dark .info {
+	color: #fff;
+}
+
+.rssbutton {
+	float: left;
+	border: 1px solid #698ab4;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.dark .rssbutton {
+	border: 1px solid #585858;
+}
+
+.rssbutton input {
+	background: #77a0d1;
+	border: 1px solid #88b3e6;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: bold;
+	width: 90px;
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	*line-height: 19px;
+	text-align: center;
+}
+
+.dark .rssbutton input {
+	background: #676767;
+	border: 1px solid #777;
+}
+
+.rssbutton input:hover {
+	background: #86b4eb;
+	text-decoration: none;
+}
+
+.dark .rssbutton input:hover {
+	background: #797979;
+	border: 1px solid #939393;
+}
+
+input.rsstxt {
+	height: 20px;
+	font-size: 14px;
+	padding: 2px 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #ccc;;
+	border-color: #7c7c7c #c3c3c3 #c3c3c3 #9a9a9a;
+	margin: 0 5px;
+	float: left;
+}
+
+.dark input.rsstxt {
+	background: #eee;
+}
+/* ZEMİN ELEMANLARI */
+div#kose-ust-sol {
+	position:absolute;
+	display:block;
+	left:0;
+	top:0;
+	padding:0;
+	margin:0;
+	width:497px;
+	height:360px;
+	z-index:10;
+	font-size:0;
+	background-image:url(../images/bg-ust-sol.png);
+}
+div#kose-ust-sag {
+	position:absolute;
+	display:block;
+	padding:0;
+	margin:0;
+	right:0;
+	top:0;
+	z-index:20;
+	width:497px;
+	height:360px;
+	font-size:0;
+	background-image:url(../images/bg-ust-sag.png);
+}
+div#kose-alt-sol {
+	position:absolute;
+	display:block;
+	padding:0;
+	margin:0;
+	left:0;
+	bottom:0;
+	width:497px;
+	height:360px;
+	z-index:30;
+	font-size:0;
+	background-image:url(../images/bg-alt-sol.png);
+}
+div#kose-alt-sag {
+	position:absolute;
+	display:block;
+	padding:0;
+	margin:0;
+	right:0;
+	bottom:0;
+	width:497px;
+	height:360px;
+	z-index:40;
+	font-size:0;
+	background-image:url(../images/bg-alt-sag.png);
+}

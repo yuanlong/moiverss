@@ -1,0 +1,28 @@
+<div align="center" style="background: #EDEDED;">
+
+  <table cellspacing="0" cellpadding="20" border="0" align="center" style="font-family: Arial, Helvetica, sans-serif; color: #000; font-size: 11px; width: 600px;">
+    <tbody>
+      <tr>
+        <td colspan="2" style="color: #000; font-size: 20px; font-weight: bold; border-bottom: 1px dashed #000022; padding-left: 0px;">$!{v_name}</td>
+      </tr>
+      <tr>
+        <td width="50%" valign="top">
+          <img src="$!{v_pic}" height= "250px" width="176px" style="border: 1px solid rgb(89, 15, 28);  padding: 4px;  margin: 0pt 50px;"></td>
+        <td width="50%" valign="top"  align="left"><p><strong>影片名称: </strong>$!{v_name}</p>
+			<p><strong>影片栏目: </strong>$!{v_class}</p>
+			<p><strong>影片地区: </strong>$!{v_area}</p>
+			<p><strong>影片主演: </strong>$!{v_author}</p>
+			<p><strong>影片导演: </strong>$!{v_direct}</p>
+			<p><strong>发行日期: </strong>$!{v_year}</p>
+			<p><strong>更新时间: </strong>$!{v_ctime}</p></td>
+      </tr>
+      <tr>
+        <td valign="top" colspan="2" align="left" style="border-bottom: 1px dashed #000022;"><strong>快播播放地址</strong><br>
+         #foreach($vdata in $v_datalist)
+          <span style="color: #222;">$!{vdata}</span><br>
+      	#end
+      	</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

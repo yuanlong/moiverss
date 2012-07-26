@@ -1,0 +1,10 @@
+影片名称: $!{v_name}
+影片栏目: $!{v_class}
+影片地区: $!{v_area}
+影片主演: $!{v_author}
+影片导演: $!{v_direct}
+发行日期: $!{v_year}
+播放地址：
+#foreach($vdata in $v_datalist)
+$!{vdata}|
+#end
